@@ -2,8 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family= Passion +One & display=swap');
 
-@import
-url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
 
 :root {
    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
@@ -33,7 +32,7 @@ url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte02);
-    font-size: 5vw;
+    font-size: 10vw;
  }
 
  header > p {
@@ -55,7 +54,7 @@ url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 3vw;
+    font-size: 5vw;
     font-family: var(--fonte03);
  }
  section > p {
@@ -69,13 +68,14 @@ url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
 
  section.imagem {
     background-color: rgba(0, 0, 0, 0.456);
-    box-shadow: inset 6px 6px 13px opx rgba(0, 0, 0, 0.499);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.499);
+    background-size: cover;
     background-attachment: fixed;
  }
 
  section.imagem > p {
-    width: 400px;
+    display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.43);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.467);
@@ -84,12 +84,12 @@ url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
  section#img01 {
     background-image: url('../imagens/background001.jpg');
     background-position: right center;
-    background-size: cover;
+    
  }
 
  section#img02 {
     background-image: url('../imagens/background002.jpg');
-    background-size: cover;
+    
  }
 
  footer {
